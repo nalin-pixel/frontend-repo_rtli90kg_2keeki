@@ -1,8 +1,10 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import HowItWorks from './components/HowItWorks'
 import Results from './components/Results'
 import CTA from './components/CTA'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <HowItWorks />
       <Results />
       <CTA />
+      <Contact />
 
       <footer className="relative z-10 border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
